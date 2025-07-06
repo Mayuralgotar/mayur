@@ -1,0 +1,63 @@
+
+    body{
+    font-family:Arial,sans-serial;
+    background-color:#f0f8ff;
+    margin:40px;
+    padding:0;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Shree_Gautameshwar_Mahadev_Temple_complex-Sihor-Gujarat.JPG/250px-Shree_Gautameshwar_Mahadev_Temple_complex-Sihor-Gujarat.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f9f7f7;
+}
+   .history-content h1{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+    
+   }
+   .history-content p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    color: red;
+   }
+   .blur-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Shree_Gautameshwar_Mahadev_Temple_complex-Sihor-Gujarat.JPG/250px-Shree_Gautameshwar_Mahadev_Temple_complex-Sihor-Gujarat.JPG);
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+    text-align: center;
+    
+   }
+   
+   .history-content{
+ position: relative;
+ max-width: 800px;
+ margin: 80px auto;
+ padding: 30px;
+ background: rgba(255,255,255,0.8);
+ border-radius: 12px;
+ color: red;
+ z-index: 10;
+ box-shadow: 0 8px 10px rgba(0,0,0,0.2);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   }
+
+   h1{
+    text-align: center;
+    color: #000000;
+   }
+
+   p{
+    font-size: x-large;
+   }
+
