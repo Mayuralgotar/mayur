@@ -1,0 +1,55 @@
+
+.adventure-content h1{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+    
+   }
+   .adventure-content p{
+    font-size: 200px;
+    text-align: justify;
+    line-height: 1.6;
+    color: rgb(250, 247, 247);
+   }
+   .blur-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGVDa9qxt3JNUVmn4GDjibAvhFlvRdHakoCqWojrJ7zXOkuXVvPkLxMUDgMiCL6pZ1Bdw&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    
+   }
+   
+   .adventure-content{
+ position: relative;
+ max-width: 800px;
+ margin: 80px auto;
+ padding: 30px;
+ background: rgba(255,255,255,0.8);
+ border-radius: 12px;
+ color: rgb(242, 240, 240);
+ z-index: 10;
+ box-shadow: 0 8px 10px rgba(0,0,0,0.2);
+font-style:italic;
+font-family: Arial, Helvetica, sans-serif;
+
+   }
+
+   h1{
+    text-align: center;
+    color: rgb(10, 9, 9);
+   }
+   p{
+    font-size: x-large;
+   }
+h2{
+    text-align: center;
+}
