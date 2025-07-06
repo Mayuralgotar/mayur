@@ -1,0 +1,53 @@
+
+.Charitytrust-content h1{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+    
+   }
+   .Charitytrust-content p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    color: rgb(250, 247, 247);
+   }
+   .blur-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://content.jdmagicbox.com/comp/def_content/charitable_trusts/default-charitable-trusts-7-250.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    
+   }
+   
+   .Charitytrust-content{
+ position: relative;
+ max-width: 800px;
+ margin: 80px auto;
+ padding: 30px;
+ background: rgba(255,255,255,0.8);
+ border-radius: 12px;
+ color: rgb(242, 240, 240);
+ z-index: 10;
+ box-shadow: 0 8px 10px rgba(0,0,0,0.2);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   }
+
+   h1{
+    text-align: center;
+    color:black;
+
+   }
+   p{
+    color: black;
+    font-size: x-large;
+   }
